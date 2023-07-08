@@ -1,3 +1,4 @@
+import 'package:coffee_shop/home_page.dart';
 import 'package:coffee_shop/login.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: LoginPage(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
